@@ -222,3 +222,60 @@ body{
     font-size: 20px;
     color: brown;
 }
+@media screen and (max-width:400px) {
+    .div-photo{
+        width: 216px;
+        background-color: black;
+
+    }
+    .Programer{
+        width: 150px;
+    }
+    nav{
+        width: 216px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        width: 150px;
+    }
+    #item{
+        width: 216px;
+    }
+    .FootMain{
+        flex-direction: column;
+        width: 200px;
+        margin-top: 50px;
+    }
+    .FootChild{
+        padding: 0px;
+        width: 200px;
+        border: none;
+        gap: 5px;
+    }
+    #DivCard{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        cursor: pointer;
+        border-radius: 10px;
+    
+    }
+    .CardImg{
+        width: 190px;
+        margin: 0px;
+    }
+    body{
+      width: 216px;
+      overflow-x: hidden;
+    }
+    .Productlist{
+        width: 216px;
+    }
+}
+@media screen and (min-width:401px) and (max-width:800px){
+    
+}
