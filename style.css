@@ -223,6 +223,39 @@ body{
     color: brown;
 }
 @media screen and (max-width:320px){
+    .Cardimage{
+        width: 100%;
+    }
+    input{
+        width: 180px;
+    }
+    .Description2{
+        width: 361px;
+        background-color: black;
+    }
+    .Productcard{
+        flex-direction: column;
+        width: 361px;
+    }
+    .Parent{
+        flex-direction: column;
+    }
+    .Main{
+        flex-direction: column;
+        width: 450px;
+
+    }
+    .CustomerCV{
+        width: 300px;
+        display: block;
+    }
+    #LogIn{
+     width: 361px;
+     height: 400px;
+    }
+    .Child, .Child1{
+        align-items: center;
+    }
     .div-photo{
         width: 361px;
         background-color: rgb(0, 0, 0);
@@ -252,6 +285,16 @@ body{
         background-color: rgb(255, 27, 145);
         width: 572px;
     }
+    #LogIn{
+        margin-left: 35px;
+    }
+    .Main{
+        flex-direction: column;
+    }
+    .Productcard{
+        flex-direction: column;
+        width: 572px;
+    }
     nav{
         width: 572px;
     }
@@ -274,6 +317,13 @@ body{
         background-color: yellowgreen;
         width: 572px;
     }
+    .Main{
+        flex-direction: column;
+    }
+    .Productcard{
+        flex-direction: column;
+        width: 572px;
+    }
     nav{
         width: 572px;
     }
@@ -294,6 +344,12 @@ body{
     .div-photo{
         width: 700px;
     }
+    .Productcard{
+        flex-direction: column;
+        width: 690px;
+    }
+
+    
     nav{
         width: 700px;
     }
@@ -305,6 +361,17 @@ body{
     }
     .FootChild{
         border: none;
+    }
+    .Main{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:890px) {
+    .Productcard{
+        flex-direction: column;
+    }
+    .div-photo,nav{
+        width: 896px;
     }
 }
 /*  */
